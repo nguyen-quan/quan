@@ -1,11 +1,12 @@
 import {AddProduct} from "../Component/AddProduct";
 import {useState} from "react";
 import {TableProduct} from "../Component/TableProduct";
+import "../Assess/css/product-manager.scss"
 
 export const ProductManager = () => {
     const [selectedProduct, setSelectedProduct] = useState(null)
 
-    return(
+    return (
         <div className="product-manager">
             <div className="container-fluid">
                 <div className="row">

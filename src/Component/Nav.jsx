@@ -13,7 +13,7 @@ export const Nav = () => {
                                 Adminaria-expanded="false"><i className="fas fa-user-circle"/> <p>Đăng nhập</p>
                         </button>
                         <ul className="dropdown-menu" aria-labelledby="infoUser">
-                            <li><Link exact={true} to="/product-manager"><i className="fas fa-user"/><p>Gian hàng</p></Link></li>
+                            <li><Link  to="/product-manager"><i className="fas fa-user"/><p>Gian hàng</p></Link></li>
                             <li><i className="fas fa-sign-in-alt"/><p> Đăng xuất</p></li>
                         </ul>
                     </li>
